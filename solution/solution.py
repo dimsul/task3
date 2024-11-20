@@ -25,7 +25,7 @@ def appearance(intervals: dict[str, list[int]]) -> int:
     return len(set(sum_))
 
 
-def search_overlap(range1: list[int, int], range2: list[int, int]):
+def search_overlap(range1, range2):
     return max(range1[0], range2[0]), min(range1[1], range2[1])
 
 
